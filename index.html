@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' 'unsafe-eval'; img-src * data: https:;">
+  <title>TV Series</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <div class="container mt-4">
+  <h1 class="mb-3">TV Series</h1>
+  <div class="row">
+    <div class="col-md-8">
+      <table class="table table-striped" id="series">
+        <thead class="table-dark">
+          <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Channel</th>
+            <th>Seasons</th>
+          </tr>
+        </thead>
+        <tbody id="series-tbody"></tbody>
+      </table>
+      <p id="average-seasons"></p>
+    </div>
+
+    <!-- Card -->
+    <div class="col-md-4" id="series-card"></div>
+  </div>
+</div>
+
+<script type="module" src="./dist/main.js"></script>
+</body>
+</html>

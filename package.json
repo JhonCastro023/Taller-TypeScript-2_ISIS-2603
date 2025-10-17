@@ -1,0 +1,29 @@
+{
+  "name": "taller-typescript-2_isis-2603",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000T\u0000a\u0000l\u0000l\u0000e\u0000r\u0000-\u0000T\u0000y\u0000p\u0000e\u0000S\u0000c\u0000r\u0000i\u0000p\u0000t\u0000-\u00002\u0000_\u0000I\u0000S\u0000I\u0000S\u0000-\u00002\u00006\u00000\u00003\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JhonCastro023/Taller-TypeScript-2_ISIS-2603.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JhonCastro023/Taller-TypeScript-2_ISIS-2603/issues"
+  },
+  "homepage": "https://github.com/JhonCastro023/Taller-TypeScript-2_ISIS-2603#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "react-bootstrap": "^2.10.10"
+  }
+}
